@@ -1,4 +1,4 @@
-const expressSession = require('express-session');
+/*const expressSession = require('express-session');
 const connectMongo = require('connect-mongo');
 const mongoose = require('mongoose');
 
@@ -19,4 +19,4 @@ const session = expressSession({
   })
 });
 
-module.exports = session;
+module.exports = session;*/

@@ -6,7 +6,7 @@ MongoMemoryServer.create()
   .then((mongoServer) => mongoose.connect(mongoServer.getUri(), {
     useNewUrlParser: true,
     dbName: "tweets",
-    useCreateIndex: true,
+   // useCreateIndex: true,
     useUnifiedTopology: true
   }))
   .then(() =>

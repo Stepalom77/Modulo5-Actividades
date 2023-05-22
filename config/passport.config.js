@@ -1,4 +1,4 @@
-const passport = require('passport');
+/*const passport = require('passport');
 const mongoose = require('mongoose');
 const User = require('../models/user.model');
 const LocalStrategy = require('passport-local').Strategy;
@@ -72,4 +72,4 @@ passport.use('local-auth', new LocalStrategy({
           })
       }
     }).catch(next)
-}));
+}));*/
