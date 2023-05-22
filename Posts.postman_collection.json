@@ -10,6 +10,16 @@
 		{
 			"name": "Create Post",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmJmOGYzZGNkMjQwOGUyYTkyZDkxMyIsImVtYWlsIjoic3RlcGhhbm9AZW1haWwuY29tIiwiaWF0IjoxNjg0Nzk3Njg1fQ.9S_2oSiJl-bJbDM1XcuCh0o46YTu9A5PI6oRUK53cuQ",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [],
 				"body": {
@@ -39,6 +49,16 @@
 		{
 			"name": "Get all Posts",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmJmOGYzZGNkMjQwOGUyYTkyZDkxMyIsImVtYWlsIjoic3RlcGhhbm9AZW1haWwuY29tIiwiaWF0IjoxNjg0Nzk3Njg1fQ.9S_2oSiJl-bJbDM1XcuCh0o46YTu9A5PI6oRUK53cuQ",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
@@ -59,10 +79,20 @@
 		{
 			"name": "Get Post By Id",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmJmOGYzZGNkMjQwOGUyYTkyZDkxMyIsImVtYWlsIjoic3RlcGhhbm9AZW1haWwuY29tIiwiaWF0IjoxNjg0Nzk3Njg1fQ.9S_2oSiJl-bJbDM1XcuCh0o46YTu9A5PI6oRUK53cuQ",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/api/posts/646be59f5013ef70d4de6207",
+					"raw": "http://localhost:8000/api/posts/646bf916dcd2408e2a92d917",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -71,7 +101,7 @@
 					"path": [
 						"api",
 						"posts",
-						"646be59f5013ef70d4de6207"
+						"646bf916dcd2408e2a92d917"
 					]
 				}
 			},
@@ -80,6 +110,16 @@
 		{
 			"name": "Edit Posts",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmJmOGYzZGNkMjQwOGUyYTkyZDkxMyIsImVtYWlsIjoic3RlcGhhbm9AZW1haWwuY29tIiwiaWF0IjoxNjg0Nzk3Njg1fQ.9S_2oSiJl-bJbDM1XcuCh0o46YTu9A5PI6oRUK53cuQ",
+							"type": "string"
+						}
+					]
+				},
 				"method": "PATCH",
 				"header": [],
 				"body": {
@@ -92,7 +132,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/posts/646be543e775d38304085e42",
+					"raw": "http://localhost:8000/api/posts/646bf916dcd2408e2a92d917",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -101,7 +141,7 @@
 					"path": [
 						"api",
 						"posts",
-						"646be543e775d38304085e42"
+						"646bf916dcd2408e2a92d917"
 					]
 				}
 			},
@@ -110,10 +150,20 @@
 		{
 			"name": "Delete Post",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NmJmOGYzZGNkMjQwOGUyYTkyZDkxMyIsImVtYWlsIjoic3RlcGhhbm9AZW1haWwuY29tIiwiaWF0IjoxNjg0Nzk3Njg1fQ.9S_2oSiJl-bJbDM1XcuCh0o46YTu9A5PI6oRUK53cuQ",
+							"type": "string"
+						}
+					]
+				},
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/api/posts/646be6f88bdc3789d7027b29",
+					"raw": "http://localhost:8000/api/posts/646bf916dcd2408e2a92d917",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -122,7 +172,7 @@
 					"path": [
 						"api",
 						"posts",
-						"646be6f88bdc3789d7027b29"
+						"646bf916dcd2408e2a92d917"
 					]
 				}
 			},
