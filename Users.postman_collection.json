@@ -65,6 +65,28 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Validate User",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/users/validate/646c02cea316460ed6c6c7c7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"users",
+						"validate",
+						"646c02cea316460ed6c6c7c7"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
