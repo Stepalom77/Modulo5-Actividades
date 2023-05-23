@@ -14,4 +14,5 @@ router.delete("/posts/:id", authMiddleware, posts.deletePost);
 //User
 router.post("/users", users.signup);
 router.post("/users/login", users.login);
+router.patch("/users/validate/:id", users.validate);
 module.exports = router;
